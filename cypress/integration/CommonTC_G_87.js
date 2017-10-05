@@ -19,7 +19,7 @@ describe('Common_TC_G_87', function(){
   
   	it('Nhập thông tin vào các trường', function(){
   		cy.fixture('admin_account').then((admin) => {
-  		cy.get('input[name=email]').type(admin.account2.email);
+  		cy.get('input[name=email]').type(jsffgseugf@gmail.com);
   		cy.get('input[name=password]').type(admin.account2.password);
   		cy.get('input[name=first_name]').type(admin.account2.first_name);
   		cy.get('input[name=last_name').type(admin.account2.last_name);
